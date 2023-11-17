@@ -1,0 +1,33 @@
+.app__imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* position: fixed;
+    bottom: 0; */
+
+}
+.progressbar{
+    width: 100%;
+    margin: 15px;
+}
+.app__imageupload>h1{
+    text-align: center;
+}
+
+.app_caption{
+    width: 100%;
+    height: 15px;
+    padding: 15px;
+   
+}
+.file_select{
+    align-self: center;
+    margin-top: 5px;
+}
+.file_select:hover{
+    background-color: aquamarine !important;
+}

@@ -1,0 +1,45 @@
+.post{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 45px;
+}
+.post_postimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 60vh;
+    background-color: white;
+}
+.post__username{
+    font-weight: normal;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+.post__header{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+.post__avatar{
+    margin-right: 10px;
+}
+.form_comment{
+    display: flex;
+    margin-top: 10px;
+}
+
+.post__input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    
+
+}
+.post__comment{
+    flex: 0;
+}
+.post_comments{
+    padding: 20px;
+}
